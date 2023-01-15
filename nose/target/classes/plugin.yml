@@ -1,0 +1,23 @@
+name: Lol
+version: '1.0-SNAPSHOT'
+main: me.quantumprofile.lol.Lol
+api-version: 1.17
+authors: [ QuantumProfile ]
+description: juas
+commands:
+  goldencarrot:
+    description: Te penetra el inventario
+    usage: /<command>
+  customsay:
+    description: Dices algo siendo el server
+  lol:
+    description: reloads
+  whisper:
+    description: Susurrar a la consola
+  rank:
+    description: modify a player's rank
+  team:
+    description: removes team command
+permissions:
+  sayandtell:
+    default: op
